@@ -13,5 +13,9 @@ rust-light-server [OPTIONS] [PATH]
 | --gzip / -g | enable gzip compression | |
 | --help / -h | Displays list of options available  
 
+## Example 
+> rust-light-server --port 8089 --gzip c:\demo\webpages\
 
 
+it will start the server on port 8089 and serve the files from webpages folder
+web url will be http://127.0.0.1:8089
